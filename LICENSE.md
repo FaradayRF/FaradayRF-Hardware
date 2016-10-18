@@ -107,6 +107,7 @@ documentation:
 TERMS AND CONDITIONS
 
 1.   Introduction
+
 1.1  This Agreement governs how you may use, copy, modify, and
 distribute Documentation, and how you may make, have made, and
 distribute Products based on that Documentation.  As used in this
@@ -204,10 +205,12 @@ under this Section and you need take no further action if any address
 fails.
 
 4.   Distributing Documentation
+
 4.1  You may distribute unmodified copies of the Documentation in its
 entirety in any medium, provided that you retain all copyright and other
 notices (including references to this Agreement) included by each
 Licensor, and include an unaltered copy of this Agreement.
+
 4.2  You may distribute modified copies of the Documentation if you
 comply with all the requirements of the preceding paragraph and:
      (a) include a prominent notice in an ASCII or other open format
@@ -227,6 +230,7 @@ comply with all the requirements of the preceding paragraph and:
          manufacture.
 
 5.   Making Products
+
 5.1  You may use the Documentation to make or have Products made,
 provided that each Product retains any notices included by the Licensor
 (including, but not limited to, copyright notices on circuit boards).
@@ -251,11 +255,13 @@ TAPR owns the copyright to the OHL, but grants permission to any person
 to copy, distribute, and use it in unmodified form.
 
 7.   WARRANTY AND LIABILITY LIMITATIONS
+
 7.1  THE DOCUMENTATION IS PROVIDED ON AN"AS-IS" BASIS WITHOUT
 WARRANTY OF ANY KIND, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  ALL
 WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY
 WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
 TITLE, ARE HEREBY EXPRESSLY DISCLAIMED.
+
 7.2  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW WILL ANY LICENSOR
 BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT,
 INCIDENTAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF
@@ -263,11 +269,13 @@ THE USE OF, OR INABILITY TO USE, THE DOCUMENTATION OR PRODUCTS,
 INCLUDING BUT NOT LIMITED TO CLAIMS OF INTELLECTUAL PROPERTY
 INFRINGEMENT OR LOSS OF DATA, EVEN IF THAT PARTY HAS BEEN ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGES.
+
 7.3  You agree that the foregoing limitations are reasonable due to
 the non-financial nature of the transaction represented by this
 Agreement, and acknowledge that were it not for these limitations, the
 Licensor(s) would not be willing to make the Documentation available to
 you.
+
 7.4  You agree to defend, indemnify, and hold each Licensor harmless
 from any claim brought by a third party alleging any defect in the
 design, manufacture, or operation of any Product which you make, have

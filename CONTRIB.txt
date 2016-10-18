@@ -1,0 +1,9 @@
+# We would like to be notified of projects based on the Faraday design per the TAPR OHL V1.0.
+# If you use the design of Faraday as a starting point, build your own boards, or use any file
+# in this repo for a project please send us an email at the following addresses. FaradayRF
+# appreciates the effort so if we do not respond or the contact information is no longer valid
+# this is perfectly fine.
+
+FaradayRF:	Support@FaradayRF.com
+Bryce Salmi, KB1LQC: Bryce@FaradayRF.com
+Brent Salmi, KB1LQD: Brent@FaradayRF.com
