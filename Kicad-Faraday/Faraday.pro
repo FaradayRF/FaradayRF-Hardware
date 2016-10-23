@@ -1,23 +1,9 @@
-update=10/20/2016 12:49:55 AM
+update=10/22/2016 7:18:44 PM
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=../Kicad-Library
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=conn
-LibName3=device
-LibName4=74xgxx
-LibName5=KB1LQC
 [pcbnew]
 version=1
 LastNetListRead=Faraday.net
@@ -42,3 +28,18 @@ LibDir=../Kicad-Library
 LibName1=KB1LQC
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=../Kicad-Library
+NetFmtName=PcbnewAdvanced
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=power
+LibName2=conn
+LibName3=device
+LibName4=74xgxx
+LibName5=KB1LQC
+LibName6=FaradayRF

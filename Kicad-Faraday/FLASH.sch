@@ -4,6 +4,7 @@ LIBS:conn
 LIBS:device
 LIBS:74xgxx
 LIBS:KB1LQC
+LIBS:FaradayRF
 LIBS:Faraday-cache
 EELAYER 27 0
 EELAYER END
@@ -11,7 +12,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 6 11
 Title "Faraday Wireless Node"
-Date "20 oct 2016"
+Date "23 oct 2016"
 Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"

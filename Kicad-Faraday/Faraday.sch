@@ -4,6 +4,7 @@ LIBS:conn
 LIBS:device
 LIBS:74xgxx
 LIBS:KB1LQC
+LIBS:FaradayRF
 LIBS:Faraday-cache
 EELAYER 27 0
 EELAYER END
@@ -11,7 +12,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 11
 Title "Faraday Wireless Node"
-Date "20 oct 2016"
+Date "23 oct 2016"
 Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
@@ -147,17 +148,6 @@ Text Notes 1400 5250 0    180  ~ 36
 Voltage Regulator
 Text Notes 6100 900  0    250  ~ 50
 FaradayRF Wireless Module
-$Comp
-L FARADAY_LOGO G1
-U 1 1 54491BF1
-P 15700 9000
-F 0 "G1" H 15700 8500 60  0001 C CNN
-F 1 "FARADAY_LOGO" H 15700 9450 60  0001 C CNN
-F 2 "FaradayLogoSmall" H 15700 9000 60  0001 C CNN
-F 3 "" H 15700 9000 60  0000 C CNN
-	1    15700 9000
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 3350 9250 600  800 
 U 541A964F
@@ -530,6 +520,17 @@ F 1 "RF_FEMALE" H 12300 2100 60  0000 C CNN
 F 2 "CONSMA001-SMD-G" H 12100 1900 60  0001 C CNN
 F 3 "" H 12800 2200 60  0000 C CNN
 	1    12800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L FARADAYRF2016 G1
+U 1 1 580C5315
+P 16100 9150
+F 0 "G1" H 15950 8950 60  0001 C CNN
+F 1 "FARADAYRF2016" H 15900 9350 60  0001 C CNN
+F 2 "FaradayRF" H 16100 9150 60  0001 C CNN
+F 3 "" H 16100 9150 60  0000 C CNN
+	1    16100 9150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
