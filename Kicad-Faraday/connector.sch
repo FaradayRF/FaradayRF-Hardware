@@ -4,7 +4,6 @@ LIBS:conn
 LIBS:device
 LIBS:74xgxx
 LIBS:KB1LQC
-LIBS:FaradayRF
 LIBS:Faraday-cache
 EELAYER 27 0
 EELAYER END

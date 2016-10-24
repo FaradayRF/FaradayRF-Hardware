@@ -1,4 +1,4 @@
-update=10/22/2016 7:18:44 PM
+update=10/23/2016 5:24:06 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -42,4 +42,3 @@ LibName2=conn
 LibName3=device
 LibName4=74xgxx
 LibName5=KB1LQC
-LibName6=FaradayRF
