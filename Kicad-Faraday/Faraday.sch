@@ -54,6 +54,7 @@ F21 "GPS-RX" O L 2750 3100 60
 F22 "UCB0CS2" O L 2750 3650 60 
 F23 "~RST~" I R 4950 4150 60 
 F24 "TEST" B R 4950 4250 60 
+F25 "P4_[0..7]" I L 2750 2400 60 
 $EndSheet
 $Sheet
 S 5250 3250 950  700 
@@ -116,11 +117,11 @@ CLK-CC430
 Text Label 1900 3650 0    60   ~ 0
 CS2-CC430
 Text Label 8600 2450 0    60   ~ 0
-P3_0
+P4_5
 Text Label 8600 2550 0    60   ~ 0
-P3_1
+P4_6
 Text Label 8600 2650 0    60   ~ 0
-P3_2
+P4_7
 Text Label 5950 7050 0    60   ~ 0
 CLK-CC430
 Text Label 5950 7150 0    60   ~ 0
@@ -543,4 +544,20 @@ F 3 "" H 16000 8650 60  0000 C CNN
 	1    16000 8650
 	1    0    0    -1  
 $EndComp
+Text Label 1900 2400 0    60   ~ 0
+P4_[0..7]
+Wire Bus Line
+	2750 2400 1900 2400
+Text Label 8000 2350 0    60   ~ 0
+P4_[5..7]
+Entry Wire Line
+	8500 2350 8600 2450
+Entry Wire Line
+	8500 2450 8600 2550
+Entry Wire Line
+	8500 2550 8600 2650
+Wire Bus Line
+	8000 2350 8500 2350
+Wire Bus Line
+	8500 2350 8500 2550
 $EndSCHEMATC
