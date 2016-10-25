@@ -1,6 +1,6 @@
-update=10/23/2016 5:24:06 PM
+update=10/25/2016 1:43:18 AM
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -26,8 +26,6 @@ ModuleOutlineThickness=0.127000000000
 [pcbnew/libraries]
 LibDir=../Kicad-Library
 LibName1=KB1LQC
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../Kicad-Library
@@ -42,3 +40,5 @@ LibName2=conn
 LibName3=device
 LibName4=74xgxx
 LibName5=KB1LQC
+[general]
+version=1
