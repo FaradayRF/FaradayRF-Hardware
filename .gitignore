@@ -10,3 +10,4 @@ EngineeringDocs/*.raw
 
 # General
 EngineeringDocs/~*
+Kicad-Faraday/OutputFiles/FaradayFAB/*
