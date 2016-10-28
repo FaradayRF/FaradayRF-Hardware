@@ -11,12 +11,12 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 3 11
 Title "Faraday Wireless Node"
-Date "8 aug 2016"
-Rev "B"
+Date "24 oct 2016"
+Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
-Comment2 "Brenton Salmi, KB1LQD"
-Comment3 "Bryce Salmi, KB1LQC"
+Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
+Comment3 "TAPR OHL V1.0: http://www.tapr.org/OHL"
 Comment4 ""
 $EndDescr
 $Comp
@@ -716,7 +716,7 @@ F 3 "" H 13250 3450 60  0000 C CNN
 	1    13250 3450
 	1    0    0    -1  
 $EndComp
-Text Label 5600 9450 0    60   ~ 12
+Text Label 5600 9750 0    60   ~ 12
 P4_[0..7]
 Text Notes 5650 9200 0    120  ~ 24
 3.3V External GPIO Interface
@@ -1405,7 +1405,7 @@ CA CA 9C 8C 52 96 B3 A8 CF E4 E5 7D 26 2F 07 50 94 24 46 4F 1D 15 B1 60 43 C8 B0
 62 F0 9F 33 82 20 14 83 61 05 41 10 8A C1 B0 82 20 08 C5 60 58 41 10 84 62 30 AC 20 08 42 31 18 
 56 10 04 A1 18 0C 2B 08 82 50 0C 86 15 04 41 28 06 C3 0A 82 20 14 83 61 05 41 10 8A C1 B0 82 20 
 08 C5 60 58 41 10 84 62 30 AC 20 08 42 31 FF 0F 83 E1 BA 3C 1C 59 E8 E4 00 00 00 00 49 45 4E 44 
-AE 42 60 82 50 $EndBitmap
+AE 42 60 82 17 $EndBitmap
 EndData
 $EndBitmap
 $Comp
@@ -1911,9 +1911,7 @@ Entry Wire Line
 Text Label 6900 10400 0    60   ~ 0
 DIGITAL_IO_8
 Wire Bus Line
-	5600 9450 6200 9450
-Wire Bus Line
-	6200 9450 6200 10150
+	5600 9750 6200 9750
 Wire Wire Line
 	6300 9550 7500 9550
 Wire Wire Line
@@ -1999,11 +1997,11 @@ P4_3
 Text Label 6350 9850 0    60   ~ 0
 P4_4
 Text Label 6350 9750 0    60   ~ 0
-P4_5
+P3_0
 Text Label 6350 9650 0    60   ~ 0
-P4_6
+P3_1
 Text Label 6350 9550 0    60   ~ 0
-P4_7
+P3_2
 Text Label 1900 3700 2    60   ~ 0
 P5_7
 Text HLabel 1300 3600 0    60   Output ~ 0
@@ -2139,4 +2137,18 @@ F 3 "~" H 1850 9700 60  0000 C CNN
 	1    1850 9700
 	0    1    1    0   
 $EndComp
+Wire Bus Line
+	6200 9750 6200 10150
+Text Label 5600 9450 0    60   ~ 12
+P3_[0..7]
+Wire Bus Line
+	5600 9450 6200 9450
+Wire Bus Line
+	6200 9450 6200 9650
+Text Label 2250 800  2    60   ~ 12
+P4_[0..7]
+Wire Bus Line
+	1450 800  2250 800 
+Text HLabel 1450 800  0    60   Input ~ 12
+P4_[0..7]
 $EndSCHEMATC

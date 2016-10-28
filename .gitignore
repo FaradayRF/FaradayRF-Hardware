@@ -1,0 +1,13 @@
+# KiCad
+Kicad-Faraday/*.bak
+Kicad-Faraday/*.kicad_pcb-bak
+Kicad-Library/*.bak
+Kicad-Library/*.bck
+
+# LTSpice
+EngineeringDocs/*.log
+EngineeringDocs/*.raw
+
+# General
+EngineeringDocs/~*
+Kicad-Faraday/OutputFiles/FaradayFAB/*

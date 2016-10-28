@@ -11,12 +11,12 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 11
 Title "Faraday Wireless Node"
-Date "8 aug 2016"
-Rev "B"
+Date "24 oct 2016"
+Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
-Comment2 "Brenton Salmi, KB1LQD"
-Comment3 "Bryce Salmi, KB1LQC"
+Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
+Comment3 "TAPR OHL V1.0: http://www.tapr.org/OHL"
 Comment4 ""
 $EndDescr
 $Sheet
@@ -54,6 +54,7 @@ F21 "GPS-RX" O L 2750 3100 60
 F22 "UCB0CS2" O L 2750 3650 60 
 F23 "~RST~" I R 4950 4150 60 
 F24 "TEST" B R 4950 4250 60 
+F25 "P4_[0..7]" I L 2750 2400 60 
 $EndSheet
 $Sheet
 S 5250 3250 950  700 
@@ -116,11 +117,11 @@ CLK-CC430
 Text Label 1900 3650 0    60   ~ 0
 CS2-CC430
 Text Label 8600 2450 0    60   ~ 0
-P3_0
+P4_5
 Text Label 8600 2550 0    60   ~ 0
-P3_1
+P4_6
 Text Label 8600 2650 0    60   ~ 0
-P3_2
+P4_7
 Text Label 5950 7050 0    60   ~ 0
 CLK-CC430
 Text Label 5950 7150 0    60   ~ 0
@@ -147,17 +148,6 @@ Text Notes 1400 5250 0    180  ~ 36
 Voltage Regulator
 Text Notes 6100 900  0    250  ~ 50
 FaradayRF Wireless Module
-$Comp
-L FARADAY_LOGO G1
-U 1 1 54491BF1
-P 15700 9000
-F 0 "G1" H 15700 8500 60  0001 C CNN
-F 1 "FARADAY_LOGO" H 15700 9450 60  0001 C CNN
-F 2 "FaradayLogoSmall" H 15700 9000 60  0001 C CNN
-F 3 "" H 15700 9000 60  0000 C CNN
-	1    15700 9000
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 3350 9250 600  800 
 U 541A964F
@@ -532,4 +522,42 @@ F 3 "" H 12800 2200 60  0000 C CNN
 	1    12800 2200
 	1    0    0    -1  
 $EndComp
+$Comp
+L OSHW G1
+U 1 1 580D6583
+P 14850 8750
+F 0 "G1" H 14850 8050 60  0001 C CNN
+F 1 "OSHW" H 14850 9400 60  0001 C CNN
+F 2 "OSHW" H 14850 8750 60  0001 C CNN
+F 3 "" H 14850 8750 60  0000 C CNN
+	1    14850 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FARADAYRF G2
+U 1 1 580D7B6A
+P 16000 8650
+F 0 "G2" H 16000 8350 60  0001 C CNN
+F 1 "FARADAYRF" H 15750 8900 60  0001 C CNN
+F 2 "FaradayRF" H 16000 8650 60  0001 C CNN
+F 3 "" H 16000 8650 60  0000 C CNN
+	1    16000 8650
+	1    0    0    -1  
+$EndComp
+Text Label 1900 2400 0    60   ~ 0
+P4_[0..7]
+Wire Bus Line
+	2750 2400 1900 2400
+Text Label 8000 2350 0    60   ~ 0
+P4_[5..7]
+Entry Wire Line
+	8500 2350 8600 2450
+Entry Wire Line
+	8500 2450 8600 2550
+Entry Wire Line
+	8500 2550 8600 2650
+Wire Bus Line
+	8000 2350 8500 2350
+Wire Bus Line
+	8500 2350 8500 2550
 $EndSCHEMATC

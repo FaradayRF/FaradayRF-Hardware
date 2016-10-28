@@ -11,12 +11,12 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 4 11
 Title "Faraday Wireless Node"
-Date "8 aug 2016"
-Rev "B"
+Date "24 oct 2016"
+Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
-Comment2 "Brenton Salmi, KB1LQD"
-Comment3 "Bryce Salmi, KB1LQC"
+Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
+Comment3 "TAPR OHL V1.0: http://www.tapr.org/OHL"
 Comment4 ""
 $EndDescr
 $Comp
@@ -48,7 +48,7 @@ L R_US R25
 U 1 1 54F70577
 P 8600 4350
 F 0 "R25" V 8650 4525 50  0000 C CNN
-F 1 "10K" V 8650 4175 50  0000 C CNN
+F 1 "2" V 8650 4175 50  0000 C CNN
 F 2 "R0402" V 8550 4575 50  0000 C CNN
 F 3 "" H 8600 4350 60  0000 C CNN
 F 4 "1%" V 8550 4200 50  0000 C CNN "Tolerance"
@@ -60,7 +60,7 @@ L C C48
 U 1 1 54F7057D
 P 9150 4650
 F 0 "C48" H 9275 4750 50  0000 L CNN
-F 1 "1uF" H 9275 4675 50  0000 L CNN
+F 1 "DNP" H 9275 4675 50  0000 L CNN
 F 2 "C0603" H 9400 4600 50  0000 C CNN
 F 3 "" H 9150 4650 60  0000 C CNN
 F 4 "25V" H 9350 4525 50  0000 C CNN "Voltage"
@@ -253,7 +253,7 @@ Text Notes 9950 5800 0    60   ~ 12
 CC430 Internal ESD Diodes Imax = 2mA\n24V max VCC just barely above 2mA @40mW dissipation
 Text Notes 7975 2725 0    60   ~ 0
 Filter channels flipped for routing!
-Text Notes 6350 3650 0    60   ~ 0
+Text Notes 7850 3500 0    60   ~ 0
 ADC_6 used for VCC Monitor
 Text Notes 5150 4650 0    60   ~ 0
 ADC_6 = P2.1\nADC_5 = P2.2\nADC_4 = P2.3\nADC_3 = P2.4\nADC_2 = P2.5\nADC_1 = P2.6\nADC_0 = P2.7
@@ -405,4 +405,8 @@ Wire Wire Line
 	9150 8050 9150 8200
 Wire Wire Line
 	9150 8600 9150 8650
+Text Notes 7850 4100 0    60   ~ 0
+ADC5 intended for\nmicrophone input
+Text Notes 7700 4550 0    60   ~ 0
+ESD caution advised with ADC5
 $EndSCHEMATC

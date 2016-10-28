@@ -11,12 +11,12 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 7 11
 Title "Faraday Wireless Node"
-Date "8 aug 2016"
-Rev "B"
+Date "24 oct 2016"
+Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
-Comment2 "Brenton Salmi, KB1LQD"
-Comment3 "Bryce Salmi, KB1LQC"
+Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
+Comment3 "TAPR OHL V1.0: http://www.tapr.org/OHL"
 Comment4 ""
 $EndDescr
 $Comp
@@ -94,7 +94,7 @@ U 1 1 54072E27
 P 7050 4950
 F 0 "L10" H 7150 5025 50  0000 L BNN
 F 1 "22nH" H 7150 4950 50  0000 L BNN
-F 2 "L0402" H 7275 4900 50  0000 C CNN
+F 2 "L0603" H 7275 4900 50  0000 C CNN
 F 3 "" H 7050 4950 60  0000 C CNN
 	1    7050 4950
 	1    0    0    -1  

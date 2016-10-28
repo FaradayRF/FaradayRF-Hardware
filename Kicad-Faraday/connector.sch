@@ -11,12 +11,12 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 10 11
 Title "Faraday Wireless Node"
-Date "8 aug 2016"
-Rev "B"
+Date "24 oct 2016"
+Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
-Comment2 "Brenton Salmi, KB1LQD"
-Comment3 "Bryce Salmi, KB1LQC"
+Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
+Comment3 "TAPR OHL V1.0: http://www.tapr.org/OHL"
 Comment4 ""
 $EndDescr
 $Comp
