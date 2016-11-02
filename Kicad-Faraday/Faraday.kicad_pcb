@@ -3,7 +3,7 @@
   (general
     (links 394)
     (no_connects 0)
-    (area 145.999999 99.009999 221.030001 152.450001)
+    (area 136.379999 94.167 306.218571 158.68)
     (thickness 1.6)
     (drawings 150)
     (tracks 2203)
@@ -7289,7 +7289,7 @@
   (gr_text IN (at 154.178 119.38) (layer B.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify mirror))
   )
-  (gr_text "0.063\" +- 10%" (at 294.64 127.762) (layer Dwgs.User)
+  (gr_text "0.063 mil +- 10%" (at 296.164 127.762) (layer Dwgs.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 282 135) (end 286 135) (angle 90) (layer Dwgs.User) (width 0.2))
