@@ -11,7 +11,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 11
 Title "Faraday Wireless Node"
-Date "24 oct 2016"
+Date "10 nov 2016"
 Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
@@ -24,7 +24,6 @@ S 2250 6400 800  600
 U 5402A1CF
 F0 "Power Supply" 50
 F1 "PowerSupply.sch" 50
-F2 "~PWREN~" I R 3050 6900 60 
 $EndSheet
 $Sheet
 S 2750 2050 2200 2250
@@ -494,10 +493,6 @@ Text Label 5350 4150 2    60   ~ 0
 ~RST~
 Text Label 5350 4250 2    60   ~ 0
 TEST
-Wire Wire Line
-	3050 6900 3450 6900
-Text Label 3450 6900 2    60   ~ 0
-~PWREN~
 $Comp
 L DGND #PWR01
 U 1 1 55A55B56
