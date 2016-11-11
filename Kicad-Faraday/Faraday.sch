@@ -11,7 +11,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 11
 Title "Faraday Wireless Node"
-Date "10 nov 2016"
+Date "11 nov 2016"
 Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
@@ -95,9 +95,8 @@ F0 "USB to Serial" 50
 F1 "USBtoSerial.sch" 50
 F2 "TXD" I L 13300 6250 60 
 F3 "RXD" I L 13300 6350 60 
-F4 "~PWREN~" T R 14150 6300 60 
-F5 "~RST~" O R 14150 6400 60 
-F6 "TEST" O R 14150 6500 60 
+F4 "~RST~" O R 14150 6400 60 
+F5 "TEST" O R 14150 6500 60 
 $EndSheet
 Text Label 1900 2200 0    60   ~ 0
 Analog_[0..6]
@@ -474,13 +473,9 @@ Wire Wire Line
 Text Label 2700 9550 0    60   ~ 0
 GPS-RX
 Wire Wire Line
-	14150 6300 14550 6300
-Wire Wire Line
 	14150 6400 14550 6400
 Wire Wire Line
 	14150 6500 14550 6500
-Text Label 14550 6300 2    60   ~ 0
-~PWREN~
 Text Label 14550 6400 2    60   ~ 0
 ~RST~
 Text Label 14550 6500 2    60   ~ 0

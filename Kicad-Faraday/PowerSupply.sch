@@ -11,7 +11,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 2 11
 Title "Faraday Wireless Node"
-Date "10 nov 2016"
+Date "11 nov 2016"
 Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
@@ -723,28 +723,6 @@ Wire Wire Line
 Connection ~ 2250 3300
 Text Notes 700  4150 0    60   ~ 0
 Decoupling capacitor makes no sense\nSoft-start only relevant during startup transient...
-$Comp
-L DIODESCH D3
-U 1 1 58245846
-P 5300 3300
-F 0 "D3" H 5300 3400 40  0000 C CNN
-F 1 "DIODESCH" H 5300 3200 40  0000 C CNN
-F 2 "~" H 5300 3300 60  0000 C CNN
-F 3 "~" H 5300 3300 60  0000 C CNN
-	1    5300 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODESCH D4
-U 1 1 58245853
-P 5600 2900
-F 0 "D4" H 5600 3000 40  0000 C CNN
-F 1 "DIODESCH" H 5600 2800 40  0000 C CNN
-F 2 "~" H 5600 2900 60  0000 C CNN
-F 3 "~" H 5600 2900 60  0000 C CNN
-	1    5600 2900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5600 2550 5600 2700
 Wire Wire Line
@@ -752,4 +730,26 @@ Wire Wire Line
 Connection ~ 5600 3300
 Wire Wire Line
 	15700 3300 15700 3250
+$Comp
+L PMEG4005CT D3
+U 1 1 5825963A
+P 5300 3300
+F 0 "D3" H 5300 3400 50  0000 C CNN
+F 1 "PMEG4005CT" H 5300 3200 50  0000 C CNN
+F 2 "SOT23-NXP" H 5300 3100 50  0000 C CNN
+F 3 "~" H 5300 3300 60  0000 C CNN
+	1    5300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PMEG4005CT D3
+U 2 1 58259647
+P 5600 2900
+F 0 "D3" H 5600 3000 50  0000 C CNN
+F 1 "PMEG4005CT" H 5600 2800 50  0000 C CNN
+F 2 "~" H 5600 2900 60  0000 C CNN
+F 3 "~" H 5600 2900 60  0000 C CNN
+	2    5600 2900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
