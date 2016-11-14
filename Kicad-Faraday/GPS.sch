@@ -11,7 +11,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 9 11
 Title "Faraday Wireless Node"
-Date "13 nov 2016"
+Date "14 nov 2016"
 Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
@@ -231,10 +231,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 5050 7300 5050
 $Comp
-L C C?
+L C C15
 U 1 1 582878DD
 P 6800 4550
-F 0 "C?" V 6850 4600 50  0000 L CNN
+F 0 "C15" V 6850 4600 50  0000 L CNN
 F 1 "12pF" V 6850 4300 50  0000 L CNN
 F 2 "C0402" V 6750 4750 50  0000 C CNN
 F 3 "" H 6800 4550 60  0000 C CNN

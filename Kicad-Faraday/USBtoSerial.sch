@@ -11,7 +11,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 8 11
 Title "Faraday Wireless Node"
-Date "13 nov 2016"
+Date "14 nov 2016"
 Rev "C"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
@@ -247,7 +247,7 @@ L C C40
 U 1 1 578CED8D
 P 1100 6550
 F 0 "C40" H 1200 6600 50  0000 L CNN
-F 1 "0.01uF" H 1200 6525 50  0000 L CNN
+F 1 "0.1uF" H 1200 6525 50  0000 L CNN
 F 2 "C0402" H 1325 6375 50  0000 C CNN
 F 3 "" H 1100 6550 60  0000 C CNN
 F 4 "50V" H 1275 6450 50  0000 C CNN "Voltage"
