@@ -15,11 +15,11 @@
   (page A3)
   (layers
     (15 F.Cu signal)
-    (2 InnerA.Cu power)
-    (1 InnerB.Cu power)
+    (2 InnerA.Cu power hide)
+    (1 InnerB.Cu power hide)
     (0 B.Cu signal)
     (18 B.Paste user)
-    (19 F.Paste user hide)
+    (19 F.Paste user)
     (20 B.SilkS user)
     (21 F.SilkS user)
     (22 B.Mask user)
@@ -69,7 +69,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.0762)
     (aux_axis_origin 147.193 151.257)
-    (visible_elements 7FFF7F19)
+    (visible_elements 7FFF7D19)
     (pcbplotparams
       (layerselection 503087111)
       (usegerberextensions true)
