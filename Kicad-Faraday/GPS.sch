@@ -11,8 +11,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 9 11
 Title "Faraday Wireless Node"
-Date "14 nov 2016"
-Rev "C"
+Date "15 nov 2016"
+Rev "D1"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
 Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
@@ -97,12 +97,12 @@ $EndComp
 $Comp
 L DGND #PWR090
 U 1 1 55C1E57A
-P 6100 5800
-F 0 "#PWR090" H 6100 5800 40  0001 C CNN
-F 1 "DGND" H 6100 5730 40  0000 C CNN
-F 2 "~" H 6100 5800 60  0000 C CNN
-F 3 "~" H 6100 5800 60  0000 C CNN
-	1    6100 5800
+P 6100 6000
+F 0 "#PWR090" H 6100 6000 40  0001 C CNN
+F 1 "DGND" H 6100 5930 40  0000 C CNN
+F 2 "~" H 6100 6000 60  0000 C CNN
+F 3 "~" H 6100 6000 60  0000 C CNN
+	1    6100 6000
 	1    0    0    -1  
 $EndComp
 Text Notes 13200 4850 0    60   ~ 0
@@ -188,7 +188,7 @@ Connection ~ 8200 5650
 Wire Wire Line
 	8300 5650 8300 5550
 Wire Wire Line
-	6100 5800 6100 5700
+	6100 6000 6100 5700
 Wire Wire Line
 	6000 4750 7300 4750
 Wire Wire Line

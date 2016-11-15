@@ -11,8 +11,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 2 11
 Title "Faraday Wireless Node"
-Date "14 nov 2016"
-Rev "C"
+Date "15 nov 2016"
+Rev "D1"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
 Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
@@ -395,7 +395,7 @@ F 1 "+3.3V" H 16200 3410 30  0000 C CNN
 F 2 "" H 16200 3300 60  0000 C CNN
 F 3 "" H 16200 3300 60  0000 C CNN
 	1    16200 3300
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Text Label 14150 3300 0    60   ~ 0
 3V3_BuckOut

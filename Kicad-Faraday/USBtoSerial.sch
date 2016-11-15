@@ -11,8 +11,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 8 11
 Title "Faraday Wireless Node"
-Date "14 nov 2016"
-Rev "C"
+Date "15 nov 2016"
+Rev "D1"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
 Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
@@ -97,7 +97,7 @@ F 4 "50V" H 6825 3875 50  0000 C CNN "Voltage"
 $EndComp
 Text Notes 9400 5650 0    60   ~ 0
 FTDI Chip uses it's own 3.3V to talk to MSP430\nOnly works when USB is powering the FTDI chip
-Text Notes 8100 2550 0    60   ~ 0
+Text Notes 8100 2500 0    60   ~ 0
 5V USB
 $Comp
 L PWR_FLAG #FLG074
@@ -181,12 +181,12 @@ $EndComp
 $Comp
 L +5V #PWR081
 U 1 1 5788A803
-P 8250 2700
-F 0 "#PWR081" H 8250 2790 20  0001 C CNN
-F 1 "+5V" H 8250 2790 30  0000 C CNN
-F 2 "" H 8250 2700 60  0000 C CNN
-F 3 "" H 8250 2700 60  0000 C CNN
-	1    8250 2700
+P 8250 2650
+F 0 "#PWR081" H 8250 2740 20  0001 C CNN
+F 1 "+5V" H 8250 2740 30  0000 C CNN
+F 2 "" H 8250 2650 60  0000 C CNN
+F 3 "" H 8250 2650 60  0000 C CNN
+	1    8250 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -332,11 +332,9 @@ Wire Wire Line
 Wire Wire Line
 	3200 4300 3200 2700
 Wire Wire Line
-	2700 4300 3200 4300
+	2700 4200 2700 4700
 Wire Wire Line
-	2700 4700 2700 4300
-Wire Wire Line
-	1950 4700 2700 4700
+	2700 4700 1950 4700
 Wire Wire Line
 	1950 4900 2700 4900
 Wire Wire Line
@@ -374,7 +372,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 3300 7600 3200
 Wire Wire Line
-	8250 2700 8250 4150
+	8250 2650 8250 4150
 Wire Wire Line
 	9250 4700 10100 4700
 Wire Wire Line
@@ -413,4 +411,8 @@ NoConn ~ 1950 5000
 NoConn ~ 9400 5400
 Wire Wire Line
 	9250 5400 9400 5400
+Wire Wire Line
+	2700 4200 3200 4200
+Connection ~ 3200 4200
+Connection ~ 8250 2700
 $EndSCHEMATC

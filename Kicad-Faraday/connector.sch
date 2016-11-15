@@ -11,8 +11,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 10 11
 Title "Faraday Wireless Node"
-Date "14 nov 2016"
-Rev "C"
+Date "15 nov 2016"
+Rev "D1"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
 Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
@@ -116,10 +116,6 @@ Text Label 2700 9400 2    60   ~ 0
 SCK
 Text Label 2700 9500 2    60   ~ 0
 CS2
-Text Notes 5200 3850 0    60   ~ 12
-Arduino Shield Connector
-Text Notes 10300 3800 0    60   ~ 0
-Arduino Shield Connector
 $Sheet
 S 11950 8550 950  350 
 U 54089799
@@ -547,8 +543,6 @@ F 3 "~" H 5950 9500 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5850 9600 7075 9600
-Text Notes 8375 4100 0    60   ~ 0
-move to bottom
 $Comp
 L TEST-POINT TP16
 U 1 1 578D7F1E
@@ -688,7 +682,7 @@ F 1 "VCC" H 6000 5500 30  0000 C CNN
 F 2 "" H 6000 5400 60  0000 C CNN
 F 3 "" H 6000 5400 60  0000 C CNN
 	1    6000 5400
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
 L PWR_FLAG #FLG0101
@@ -795,4 +789,6 @@ Wire Wire Line
 Connection ~ 6450 9600
 Text Notes 4200 9550 0    60   ~ 0
 Molex 2.54mm Pitch
+Text Notes 8150 4150 0    60   ~ 0
+Place on bottom of PCB
 $EndSCHEMATC
