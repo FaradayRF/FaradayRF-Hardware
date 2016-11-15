@@ -166,7 +166,7 @@ F 3 "" H 12500 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 12100 5300 0    60   ~ 12
-900MHz SAW Filter
+915MHz SAW Filter
 $Comp
 L +3.3V #PWR061
 U 1 1 54FE8E61
@@ -189,9 +189,9 @@ F 3 "" H 7050 4550 60  0000 C CNN
 	1    7050 4550
 	1    0    0    -1  
 $EndComp
-Text Notes 13100 5100 0    120  ~ 24
+Text Notes 14500 5800 0    120  ~ 24
 Input
-Text Notes 2750 5300 0    120  ~ 24
+Text Notes 1650 5550 0    120  ~ 24
 Output
 Text Label 7100 5500 0    60   ~ 0
 50Z_3
