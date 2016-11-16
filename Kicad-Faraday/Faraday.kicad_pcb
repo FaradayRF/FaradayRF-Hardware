@@ -15,9 +15,9 @@
   (page A3)
   (layers
     (15 F.Cu signal)
-    (2 InnerA.Cu power)
-    (1 InnerB.Cu power)
-    (0 B.Cu signal)
+    (2 InnerA.Cu power hide)
+    (1 InnerB.Cu power hide)
+    (0 B.Cu signal hide)
     (18 B.Paste user)
     (19 F.Paste user)
     (20 B.SilkS user)
