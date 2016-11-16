@@ -11,7 +11,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 8 11
 Title "Faraday Wireless Node"
-Date "15 nov 2016"
+Date "16 nov 2016"
 Rev "D1"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"

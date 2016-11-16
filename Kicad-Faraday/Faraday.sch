@@ -11,7 +11,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 11
 Title "Faraday Wireless Node"
-Date "15 nov 2016"
+Date "16 nov 2016"
 Rev "D1"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
@@ -145,7 +145,7 @@ USB <-> UART
 Text Notes 1400 5250 0    180  ~ 36
 Voltage Regulator
 Text Notes 6100 900  0    250  ~ 50
-FaradayRF Wireless Module
+FaradayRF Wireless Node
 $Sheet
 S 3350 9250 600  800 
 U 541A964F
