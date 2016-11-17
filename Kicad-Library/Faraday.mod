@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  11/17/2016 2:47:42 AM
+PCBNEW-LibModule-V1  11/17/2016 10:25:00 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -4904,14 +4904,13 @@ Po 3.975 2.25
 $EndPAD
 $EndMODULE PTS645-SMD
 $MODULE QFN-16-4x4
-Po 0 0 0 15 582D86FF 00000000 ~~
+Po 0 0 0 15 582DF5F2 00000000 ~~
 Li QFN-16-4x4
 Cd http://www.intersil.com/content/dam/Intersil/documents/l16_/l16.4x4.pdf
 Kw IPC-7351B, Level A
 Sc 0
 AR /5408931F/578CD5E7
 Op 0 0 0
-.SolderMask 0.0762
 At SMD
 T0 0 -2.921 0.635 0.635 0 0.127 N V 21 N "U6"
 T1 0 3.05 0.635 0.635 0 0.127 N I 21 N "FT230XQ-R"
@@ -5675,7 +5674,7 @@ Po -1.05 1.05
 $EndPAD
 $EndMODULE RGC
 $MODULE RGV
-Po 0 0 0 15 582D8789 00000000 ~~
+Po 0 0 0 15 582DF4A5 00000000 ~~
 Li RGV
 Cd http://www.ti.com/lit/ds/symlink/cc1190.pdf
 Kw TI,RGV,Level A
@@ -5701,6 +5700,30 @@ DS -2.55 -2.55 -1.55 -2.55 0.15 21
 DS -1.55 -2.55 -1.55 -1.55 0.15 21
 DS -1.55 -1.55 -2.55 -1.55 0.15 21
 DS -2.55 -1.55 -2.55 -2.55 0.15 21
+$PAD
+Sh "" R 0.1016 0.254 0 0 450
+Dr 0 0 0
+At SMD N 00800000
+Ne 0 ""
+Po 1.27 -1.27
+.LocalClearance 0.0254
+$EndPAD
+$PAD
+Sh "" R 0.1016 0.254 0 0 450
+Dr 0 0 0
+At SMD N 00800000
+Ne 0 ""
+Po -1.27 1.27
+.LocalClearance 0.0254
+$EndPAD
+$PAD
+Sh "" R 0.1016 0.254 0 0 3150
+Dr 0 0 0
+At SMD N 00800000
+Ne 0 ""
+Po -1.27 -1.27
+.LocalClearance 0.0254
+$EndPAD
 $PAD
 Sh "" R 0.9 0.9 0 0 0
 Dr 0 0 0
@@ -5735,7 +5758,7 @@ $PAD
 Sh "14" R 0.35 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 9 "N-0000061"
+Ne 9 "N-0000054"
 Po 0.325 -1.9
 .SolderPaste -0.05
 $EndPAD
@@ -5754,13 +5777,14 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 1 "+3.3V"
 Po -0.975 -1.9
+.SolderMask 0.10414
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "5" R 0.35 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 10 "N-0000062"
+Ne 10 "N-0000055"
 Po -0.975 1.9
 .SolderPaste -0.05
 .ZoneConnection 2
@@ -5796,6 +5820,7 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 7 "DGND"
 Po -1.9 -0.975
+.SolderMask 0.127
 .SolderPaste -0.05
 $EndPAD
 $PAD
@@ -5818,7 +5843,7 @@ $PAD
 Sh "4" R 0.35 1 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 8 "N-0000060"
+Ne 8 "N-0000053"
 Po -1.9 0.975
 .SolderPaste -0.05
 $EndPAD
@@ -5868,6 +5893,14 @@ Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po -0.54 -0.54
+$EndPAD
+$PAD
+Sh "" R 0.1016 0.254 0 0 3150
+Dr 0 0 0
+At SMD N 00800000
+Ne 0 ""
+Po 1.27 1.27
+.LocalClearance 0.0254
 $EndPAD
 $EndMODULE RGV
 $MODULE SC70-6
