@@ -11,8 +11,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 11 11
 Title "Faraday Wireless Node"
-Date "16 nov 2016"
-Rev "D1"
+Date "18 nov 2016"
+Rev "D"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
 Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
