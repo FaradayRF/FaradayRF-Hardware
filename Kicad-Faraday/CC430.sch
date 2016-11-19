@@ -11,7 +11,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 3 11
 Title "Faraday Wireless Node"
-Date "18 nov 2016"
+Date "19 nov 2016"
 Rev "D"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
@@ -1382,7 +1382,7 @@ CA CA 9C 8C 52 96 B3 A8 CF E4 E5 7D 26 2F 07 50 94 24 46 4F 1D 15 B1 60 43 C8 B0
 62 F0 9F 33 82 20 14 83 61 05 41 10 8A C1 B0 82 20 08 C5 60 58 41 10 84 62 30 AC 20 08 42 31 18 
 56 10 04 A1 18 0C 2B 08 82 50 0C 86 15 04 41 28 06 C3 0A 82 20 14 83 61 05 41 10 8A C1 B0 82 20 
 08 C5 60 58 41 10 84 62 30 AC 20 08 42 31 FF 0F 83 E1 BA 3C 1C 59 E8 E4 00 00 00 00 49 45 4E 44 
-AE 42 60 82 48 $EndBitmap
+AE 42 60 82 46 $EndBitmap
 EndData
 $EndBitmap
 $Comp
