@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Bryce/Documents/GitHub/FaradayRF-Hardware-HTTPS/Kicad-Faraday/Faraday.sch)
-    (date "11/19/2016 2:14:04 AM")
+    (date "11/20/2016 10:46:01 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref FD1)
@@ -990,6 +990,13 @@
       (sheetpath (names "/Shield Connector/MOSFET Channel/") (tstamps /5406CDE1/54089799/))
       (tstamp 57986B8E)))
   (libparts
+    (libpart (lib conn) (part CONN_1)
+      (description "1 pin")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_1))
+      (pins
+        (pin (num 1) (name 1) (type passive))))
     (libpart (lib conn) (part CONN_10)
       (description "Symbole general de connecteur")
       (fields
@@ -1006,13 +1013,6 @@
         (pin (num 8) (name P8) (type passive))
         (pin (num 9) (name P9) (type passive))
         (pin (num 10) (name P10) (type passive))))
-    (libpart (lib conn) (part CONN_1)
-      (description "1 pin")
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_1))
-      (pins
-        (pin (num 1) (name 1) (type passive))))
     (libpart (lib conn) (part CONN_2)
       (description "Symbole general de connecteur")
       (fields
@@ -1061,17 +1061,19 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib KB1LQC) (part ABM8G-26.000MHZ-18-D2Y-T)
+    (libpart (lib KB1LQC) (part 0915BM15A0001E)
       (fields
-        (field (name Reference) X)
-        (field (name Value) ABM8G-26.000MHZ-18-D2Y-T)
+        (field (name Reference) U)
+        (field (name Value) 0915BM15A0001E)
         (field (name Footprint) ~)
         (field (name Datasheet) ~))
       (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type power_in))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type power_in))))
+        (pin (num 1) (name UNB) (type passive))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name BAL) (type passive))
+        (pin (num 4) (name BAL) (type passive))
+        (pin (num 5) (name GND) (type power_in))
+        (pin (num 6) (name GND) (type power_in))))
     (libpart (lib KB1LQC) (part 23K256T-I/ST)
       (fields
         (field (name Reference) U)
@@ -1087,19 +1089,6 @@
         (pin (num 6) (name SCK) (type input))
         (pin (num 7) (name ~HOLD~) (type input))
         (pin (num 8) (name VCC) (type power_in))))
-    (libpart (lib KB1LQC) (part 0915BM15A0001E)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) 0915BM15A0001E)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name UNB) (type passive))
-        (pin (num 2) (name GND) (type power_in))
-        (pin (num 3) (name BAL) (type passive))
-        (pin (num 4) (name BAL) (type passive))
-        (pin (num 5) (name GND) (type power_in))
-        (pin (num 6) (name GND) (type power_in))))
     (libpart (lib KB1LQC) (part 2514-6002UB)
       (fields
         (field (name Reference) P)
@@ -1121,12 +1110,41 @@
         (pin (num 12) (name P12) (type passive))
         (pin (num 13) (name P13) (type passive))
         (pin (num 14) (name P14) (type passive))))
-    (libpart (lib KB1LQC) (part Fiducial)
+    (libpart (lib KB1LQC) (part ABM8G-26.000MHZ-18-D2Y-T)
       (fields
-        (field (name Reference) HDWR)
-        (field (name Value) Fiducial)
+        (field (name Reference) X)
+        (field (name Value) ABM8G-26.000MHZ-18-D2Y-T)
         (field (name Footprint) ~)
-        (field (name Datasheet) ~)))
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type power_in))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type power_in))))
+    (libpart (lib KB1LQC) (part CC1190)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) CC1190)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name GND) (type power_in))
+        (pin (num 2) (name PA_OUT) (type output))
+        (pin (num 3) (name GND) (type power_in))
+        (pin (num 4) (name TR_SW) (type passive))
+        (pin (num 5) (name LNA_IN) (type passive))
+        (pin (num 6) (name HGM) (type input))
+        (pin (num 7) (name LNA_EN) (type input))
+        (pin (num 8) (name PA_EN) (type input))
+        (pin (num 9) (name GND) (type power_in))
+        (pin (num 10) (name LNA_OUT) (type passive))
+        (pin (num 11) (name PA_IN) (type passive))
+        (pin (num 12) (name GND) (type power_in))
+        (pin (num 13) (name VDD_LNA) (type power_in))
+        (pin (num 14) (name BIAS) (type passive))
+        (pin (num 15) (name VDD_PA2) (type power_in))
+        (pin (num 16) (name VDD_PA1) (type power_in))
+        (pin (num 17) (name EXP_PAD) (type power_in))))
     (libpart (lib KB1LQC) (part CC430F6137)
       (footprints
         (fp PDIP20)
@@ -1202,34 +1220,16 @@
         (pin (num 63) (name "P2.1/_PM_TA1CCR0A/_CB1(/A1)") (type BiDi))
         (pin (num 64) (name "P2.0/_PM_CBOUT1/_PM_TA1CLK/_CB0_(/A0)") (type BiDi))
         (pin (num 65) (name VSS_-_EXPOSED_PAD) (type power_in))))
-    (libpart (lib KB1LQC) (part CC1190)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) CC1190)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name GND) (type power_in))
-        (pin (num 2) (name PA_OUT) (type output))
-        (pin (num 3) (name GND) (type power_in))
-        (pin (num 4) (name TR_SW) (type passive))
-        (pin (num 5) (name LNA_IN) (type passive))
-        (pin (num 6) (name HGM) (type input))
-        (pin (num 7) (name LNA_EN) (type input))
-        (pin (num 8) (name PA_EN) (type input))
-        (pin (num 9) (name GND) (type power_in))
-        (pin (num 10) (name LNA_OUT) (type passive))
-        (pin (num 11) (name PA_IN) (type passive))
-        (pin (num 12) (name GND) (type power_in))
-        (pin (num 13) (name VDD_LNA) (type power_in))
-        (pin (num 14) (name BIAS) (type passive))
-        (pin (num 15) (name VDD_PA2) (type power_in))
-        (pin (num 16) (name VDD_PA1) (type power_in))
-        (pin (num 17) (name EXP_PAD) (type power_in))))
     (libpart (lib KB1LQC) (part FaradayRF)
       (fields
         (field (name Reference) G)
         (field (name Value) FaradayRF)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~)))
+    (libpart (lib KB1LQC) (part Fiducial)
+      (fields
+        (field (name Reference) HDWR)
+        (field (name Value) Fiducial)
         (field (name Footprint) ~)
         (field (name Datasheet) ~)))
     (libpart (lib KB1LQC) (part FT230XQ-R)
@@ -1275,6 +1275,21 @@
         (pin (num 1) (name 1) (type input))
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive))))
+    (libpart (lib KB1LQC) (part IS25LQ080-JNLE-TR)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) IS25LQ080-JNLE-TR)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~CS~) (type input))
+        (pin (num 2) (name SO/IO1) (type 3state))
+        (pin (num 3) (name ~WP~/IO2) (type input))
+        (pin (num 4) (name GND) (type power_in))
+        (pin (num 5) (name SI/IO0) (type input))
+        (pin (num 6) (name SCK) (type input))
+        (pin (num 7) (name ~HOLD~/IO3) (type input))
+        (pin (num 8) (name VCC) (type power_in))))
     (libpart (lib KB1LQC) (part L-US)
       (fields
         (field (name Reference) L)
@@ -1301,21 +1316,19 @@
       (pins
         (pin (num 1) (name C) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib KB1LQC) (part IS25LQ080-JNLE-TR)
+    (libpart (lib KB1LQC) (part LTC4412)
       (fields
         (field (name Reference) U)
-        (field (name Value) IS25LQ080-JNLE-TR)
+        (field (name Value) LTC4412)
         (field (name Footprint) ~)
         (field (name Datasheet) ~))
       (pins
-        (pin (num 1) (name ~CS~) (type input))
-        (pin (num 2) (name SO/IO1) (type 3state))
-        (pin (num 3) (name ~WP~/IO2) (type input))
-        (pin (num 4) (name GND) (type power_in))
-        (pin (num 5) (name SI/IO0) (type input))
-        (pin (num 6) (name SCK) (type input))
-        (pin (num 7) (name ~HOLD~/IO3) (type input))
-        (pin (num 8) (name VCC) (type power_in))))
+        (pin (num 1) (name VIN) (type power_in))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name CTL) (type passive))
+        (pin (num 4) (name STAT) (type output))
+        (pin (num 5) (name GATE) (type output))
+        (pin (num 6) (name SENSE) (type passive))))
     (libpart (lib KB1LQC) (part M10478-A2)
       (fields
         (field (name Reference) U)
@@ -1351,19 +1364,18 @@
         (pin (num 26) (name HW_STANDBY) (type passive))
         (pin (num 27) (name GND) (type power_in))
         (pin (num 28) (name GND) (type power_in))))
-    (libpart (lib KB1LQC) (part LTC4412)
+    (libpart (lib KB1LQC) (part MI0805K400R-10)
+      (footprints
+        (fp 2012)
+        (fp 0805))
       (fields
-        (field (name Reference) U)
-        (field (name Value) LTC4412)
+        (field (name Reference) Z)
+        (field (name Value) MI0805K400R-10)
         (field (name Footprint) ~)
         (field (name Datasheet) ~))
       (pins
-        (pin (num 1) (name VIN) (type power_in))
-        (pin (num 2) (name GND) (type power_in))
-        (pin (num 3) (name CTL) (type passive))
-        (pin (num 4) (name STAT) (type output))
-        (pin (num 5) (name GATE) (type output))
-        (pin (num 6) (name SENSE) (type passive))))
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib KB1LQC) (part MIC94072YC6)
       (fields
         (field (name Reference) U)
@@ -1377,18 +1389,15 @@
         (pin (num 4) (name Vin) (type power_in))
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name NC) (type NotConnected))))
-    (libpart (lib KB1LQC) (part MI0805K400R-10)
-      (footprints
-        (fp 2012)
-        (fp 0805))
+    (libpart (lib KB1LQC) (part NETTIE)
       (fields
-        (field (name Reference) Z)
-        (field (name Value) MI0805K400R-10)
+        (field (name Reference) NT)
+        (field (name Value) NETTIE)
         (field (name Footprint) ~)
         (field (name Datasheet) ~))
       (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
+        (pin (num 1) (name NETA) (type passive))
+        (pin (num 2) (name NETB) (type passive))))
     (libpart (lib KB1LQC) (part NUF2101MT1G)
       (fields
         (field (name Reference) U)
@@ -1402,24 +1411,22 @@
         (pin (num 4) (name D-IN) (type passive))
         (pin (num 5) (name VBUS) (type power_in))
         (pin (num 6) (name D+IN) (type passive))))
-    (libpart (lib KB1LQC) (part RF_FEMALE)
+    (libpart (lib KB1LQC) (part OSHW)
       (fields
-        (field (name Reference) P)
-        (field (name Value) RF_FEMALE)
+        (field (name Reference) G)
+        (field (name Value) OSHW)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~)))
+    (libpart (lib KB1LQC) (part PMV48XP)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) PMV48XP)
         (field (name Footprint) ~)
         (field (name Datasheet) ~))
       (pins
-        (pin (num 1) (name ~) (type input))
-        (pin (num 2) (name ~) (type input))))
-    (libpart (lib KB1LQC) (part NETTIE)
-      (fields
-        (field (name Reference) NT)
-        (field (name Value) NETTIE)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name NETA) (type passive))
-        (pin (num 2) (name NETB) (type passive))))
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
     (libpart (lib KB1LQC) (part PTS645SM43SMTR92_LFS)
       (fields
         (field (name Reference) U)
@@ -1431,22 +1438,6 @@
         (pin (num 2) (name ~) (type passive))
         (pin (num 3) (name ~) (type passive))
         (pin (num 4) (name ~) (type passive))))
-    (libpart (lib KB1LQC) (part PMV48XP)
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) PMV48XP)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name 1) (type input))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))))
-    (libpart (lib KB1LQC) (part OSHW)
-      (fields
-        (field (name Reference) G)
-        (field (name Value) OSHW)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~)))
     (libpart (lib KB1LQC) (part R_US)
       (footprints
         (fp R?)
@@ -1459,6 +1450,15 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib KB1LQC) (part RF_FEMALE)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) RF_FEMALE)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
     (libpart (lib KB1LQC) (part SF2049E)
       (footprints
         (fp TO92*)
@@ -1475,6 +1475,14 @@
         (pin (num 4) (name GND) (type power_in))
         (pin (num 5) (name RFp2) (type passive))
         (pin (num 6) (name GND) (type power_in))))
+    (libpart (lib KB1LQC) (part TEST-POINT)
+      (fields
+        (field (name Reference) TP)
+        (field (name Value) TEST-POINT)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))))
     (libpart (lib KB1LQC) (part TPS562201DDCR)
       (fields
         (field (name Reference) U)
@@ -1488,14 +1496,6 @@
         (pin (num 4) (name VFB) (type passive))
         (pin (num 5) (name EN) (type passive))
         (pin (num 6) (name VBST) (type passive))))
-    (libpart (lib KB1LQC) (part TEST-POINT)
-      (fields
-        (field (name Reference) TP)
-        (field (name Value) TEST-POINT)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name ~) (type passive))))
     (libpart (lib KB1LQC) (part USB-MICRO-B)
       (footprints
         (fp 651005136521))
