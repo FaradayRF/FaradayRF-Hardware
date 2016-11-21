@@ -1,6 +1,6 @@
-update=10/26/2016 11:58:36 PM
+update=11/19/2016 2:15:16 AM
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -18,8 +18,6 @@ LibName2=conn
 LibName3=device
 LibName4=74xgxx
 LibName5=KB1LQC
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=Faraday.net
@@ -42,3 +40,5 @@ ModuleOutlineThickness=0.127000000000
 [pcbnew/libraries]
 LibDir=../Kicad-Library
 LibName1=Faraday
+[general]
+version=1
