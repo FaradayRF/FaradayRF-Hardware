@@ -10,5 +10,5 @@ EngineeringDocs/*.log
 EngineeringDocs/*.raw
 
 # General
-EngineeringDocs/~*
+EngineeringDocs/~$*.xls*
 Kicad-Faraday/OutputFiles/FaradayFAB/*
