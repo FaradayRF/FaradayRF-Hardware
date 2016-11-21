@@ -1,4 +1,3 @@
-# Optimized for FaradayRF & PCB:NG use. Through hole parts and U7 not in pick and place XYRS file,,,,,
 RefDes,X (in),Y (in),Side,Rotate,MPN
 C1,1.7,0.5,Top,270,GRM188R7YA105KA12D
 C2,1.755,0.51,Top,270,GRM155R71H104KE14D
