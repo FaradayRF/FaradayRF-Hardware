@@ -48,14 +48,17 @@ Please construct PCB to IPC-6012 Class 2 specifications
 *Faraday-InnerB_Cu.gbr*
     Inner layer #3, positive layer which defines copper for power and RF routing. Layer should be directly below InnerA_Cu and above bottom copper layer.
 
-*Faraday-NPTH-drl_map.pho*
-    Reference only drill map defining location and size of non-plated through-holes.
-
-*Faraday-NPTH.drl*
-    Non-plated through-hole locations and sizing.
-
 *Faraday.drl*
     Plated through-hole drill locations and sizing.
+	
+*Faraday-all.xlsx*
+Top and bottom pick and place XYRS file in Excel format. (ASSEMBLY ZIP ONLY)
+
+*Faraday-all.csv*
+Top and bottom pick and place XYRS file in csv format. (ASSEMBLY ZIP ONLY)
+
+*Faraday-REVD(BOM).xlsx*
+Faraday Bill of Materials in Excel format. (ASSEMBLY ZIP ONLY)
     
 # IMPORTANT STACKUP INFORMATION
 

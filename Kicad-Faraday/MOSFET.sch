@@ -11,8 +11,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 11 11
 Title "Faraday Wireless Node"
-Date "24 oct 2016"
-Rev "C"
+Date "19 nov 2016"
+Rev "D"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
 Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
@@ -36,10 +36,10 @@ WARNING: User must limit current!
 Text Notes 9200 6550 0    60   ~ 0
 Continuous current = 2.7A\nPulsed Current See Datasheet
 $Comp
-L DGND #PWR0117
+L DGND #PWR0104
 U 1 1 55A5664C
 P 9950 6300
-F 0 "#PWR0117" H 9950 6300 40  0001 C CNN
+F 0 "#PWR0104" H 9950 6300 40  0001 C CNN
 F 1 "DGND" H 9950 6230 40  0000 C CNN
 F 2 "~" H 9950 6300 60  0000 C CNN
 F 3 "~" H 9950 6300 60  0000 C CNN
@@ -84,10 +84,10 @@ $EndComp
 Wire Wire Line
 	8700 6450 8700 6600
 $Comp
-L DGND #PWR0118
+L DGND #PWR0105
 U 1 1 57986B95
 P 8700 6600
-F 0 "#PWR0118" H 8700 6600 40  0001 C CNN
+F 0 "#PWR0105" H 8700 6600 40  0001 C CNN
 F 1 "DGND" H 8700 6530 40  0000 C CNN
 F 2 "~" H 8700 6600 60  0000 C CNN
 F 3 "~" H 8700 6600 60  0000 C CNN

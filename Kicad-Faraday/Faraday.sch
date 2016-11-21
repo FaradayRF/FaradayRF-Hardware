@@ -11,8 +11,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 11
 Title "Faraday Wireless Node"
-Date "24 oct 2016"
-Rev "C"
+Date "19 nov 2016"
+Rev "D"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
 Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
@@ -24,7 +24,6 @@ S 2250 6400 800  600
 U 5402A1CF
 F0 "Power Supply" 50
 F1 "PowerSupply.sch" 50
-F2 "~PWREN~" I R 3050 6900 60 
 $EndSheet
 $Sheet
 S 2750 2050 2200 2250
@@ -96,9 +95,8 @@ F0 "USB to Serial" 50
 F1 "USBtoSerial.sch" 50
 F2 "TXD" I L 13300 6250 60 
 F3 "RXD" I L 13300 6350 60 
-F4 "~PWREN~" T R 14150 6300 60 
-F5 "~RST~" O R 14150 6400 60 
-F6 "TEST" O R 14150 6500 60 
+F4 "~RST~" O R 14150 6400 60 
+F5 "TEST" O R 14150 6500 60 
 $EndSheet
 Text Label 1900 2200 0    60   ~ 0
 Analog_[0..6]
@@ -147,7 +145,7 @@ USB <-> UART
 Text Notes 1400 5250 0    180  ~ 36
 Voltage Regulator
 Text Notes 6100 900  0    250  ~ 50
-FaradayRF Wireless Module
+FaradayRF Wireless Node
 $Sheet
 S 3350 9250 600  800 
 U 541A964F
@@ -209,50 +207,6 @@ F9 "CONN_IO_[0..8]" B L 6800 6400 60
 $EndSheet
 Text Label 5950 6400 0    60   ~ 0
 IO_[0..8]
-$Comp
-L MOUSEBITE HDWR1
-U 1 1 55DED878
-P 8350 9200
-F 0 "HDWR1" H 8350 9350 60  0000 C CNN
-F 1 "MOUSEBITE" H 8350 9050 60  0000 C CNN
-F 2 "BREAKAWAY-MIDDLE" H 8350 9200 60  0001 C CNN
-F 3 "~" H 8350 9200 60  0000 C CNN
-	1    8350 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUSEBITE HDWR4
-U 1 1 55DED87E
-P 8950 9200
-F 0 "HDWR4" H 8950 9350 60  0000 C CNN
-F 1 "MOUSEBITE" H 8950 9050 60  0000 C CNN
-F 2 "BREAKAWAY-MIDDLE" H 8950 9200 60  0001 C CNN
-F 3 "~" H 8950 9200 60  0000 C CNN
-	1    8950 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUSEBITE HDWR5
-U 1 1 55DED884
-P 9500 9200
-F 0 "HDWR5" H 9500 9350 60  0000 C CNN
-F 1 "MOUSEBITE" H 9500 9050 60  0000 C CNN
-F 2 "BREAKAWAY-MIDDLE" H 9500 9200 60  0001 C CNN
-F 3 "~" H 9500 9200 60  0000 C CNN
-	1    9500 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUSEBITE HDWR6
-U 1 1 55DED88A
-P 10100 9200
-F 0 "HDWR6" H 10100 9350 60  0000 C CNN
-F 1 "MOUSEBITE" H 10100 9050 60  0000 C CNN
-F 2 "BREAKAWAY-MIDDLE" H 10100 9200 60  0001 C CNN
-F 3 "~" H 10100 9200 60  0000 C CNN
-	1    10100 9200
-	1    0    0    -1  
-$EndComp
 $Comp
 L FIDUCIAL FD1
 U 1 1 55DED890
@@ -475,13 +429,9 @@ Wire Wire Line
 Text Label 2700 9550 0    60   ~ 0
 GPS-RX
 Wire Wire Line
-	14150 6300 14550 6300
-Wire Wire Line
 	14150 6400 14550 6400
 Wire Wire Line
 	14150 6500 14550 6500
-Text Label 14550 6300 2    60   ~ 0
-~PWREN~
 Text Label 14550 6400 2    60   ~ 0
 ~RST~
 Text Label 14550 6500 2    60   ~ 0
@@ -494,10 +444,6 @@ Text Label 5350 4150 2    60   ~ 0
 ~RST~
 Text Label 5350 4250 2    60   ~ 0
 TEST
-Wire Wire Line
-	3050 6900 3450 6900
-Text Label 3450 6900 2    60   ~ 0
-~PWREN~
 $Comp
 L DGND #PWR01
 U 1 1 55A55B56
