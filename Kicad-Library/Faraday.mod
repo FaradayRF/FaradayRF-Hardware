@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  10/27/2016 1:28:06 AM
+PCBNEW-LibModule-V1  11/20/2016 10:35:56 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -631,15 +631,16 @@ Po -2.66 -2.66
 $EndPAD
 $EndMODULE CONSMA001-SMD-G
 $MODULE FD1
-Po 147.193 151.257 0 15 57A6541E 00000000 ~~
+Po 0 0 0 15 57A6541E 00000000 ~~
 Li FD1
 Sc 0
 AR /55E82089
 Op 0 0 0
+At SMD
 T0 0 1.397 0.635 0.635 0 0.127 N V 21 N "FD4"
 T1 0 1.5 0.635 0.635 0 0.127 N I 21 N "FIDUCIAL"
 $PAD
-Sh "" C 1 1 0 0 -0
+Sh "" C 1 1 0 0 0
 Dr 0 0 0
 At SMD N 00808000
 Ne 0 ""
@@ -910,7 +911,7 @@ Po 1.765 0
 $EndPAD
 $EndMODULE LPS4018
 $MODULE M10478-A2
-Po 153.416 138.938 0 15 57A65653 00000000 ~~
+Po 0 0 0 15 58329595 00000000 ~~
 Li M10478-A2
 Sc 0
 AR /541A964F/55C1D60E
@@ -924,7 +925,7 @@ DS -4.75 6.6 -3.35 6.6 0.127 21
 DS 4.75 5 4.75 6.6 0.127 21
 DS 4.75 6.6 3.35 6.6 0.127 21
 DC -5.8 -6.6 -5.65 -6.6 0.127 21
-T2 0 -4.872 0.75 0.75 0 0.1875 N V 21 N "GPS ANT"
+T2 0 -4.75 0.75 0.75 0 0.1875 N I 21 N "GPS ANT"
 DS 5.57 7.45 -5.57 7.45 0.05 26
 DS 5.57 7.45 5.57 -7.45 0.05 26
 DS -5.57 7.45 -5.57 -7.45 0.05 26
@@ -932,7 +933,6 @@ DS 5.57 -7.45 -5.57 -7.45 0.05 26
 T2 -6 -0.9 0.5 0.5 900 0.1 N I 21 I "RECOMMEND 15MM PCB"
 T2 0.1 -7.9 1 1 0 0.15 N I 21 I "PCB EDGE"
 T2 0 -3 0.75 0.75 0 0.15 N I 21 N "NO METAL"
-T2 0 -4.6 0.75 0.75 0 0.15 N I 21 N "NO METAL"
 T2 0 -6.3 0.75 0.75 0 0.15 N I 21 N "NO METAL"
 DS -3 -7.2 -3 -2.33 0.127 24
 DS 3 -7.2 3 -2.33 0.127 24
@@ -943,49 +943,49 @@ $PAD
 Sh "1" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po -4.32 -6.6
 $EndPAD
 $PAD
 Sh "2" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po -4.32 -5.5
 $EndPAD
 $PAD
 Sh "3" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po -4.32 -4.4
 $EndPAD
 $PAD
 Sh "4" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 107 "N-0000091"
+Ne 9 "N-0000091"
 Po -4.32 -3.3
 $EndPAD
 $PAD
 Sh "5" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po -4.32 -2.2
 $EndPAD
 $PAD
 Sh "6" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 108 "N-0000092"
+Ne 10 "N-0000092"
 Po -4.32 -1.1
 $EndPAD
 $PAD
 Sh "7" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po -4.32 0
 $EndPAD
 $PAD
@@ -999,21 +999,21 @@ $PAD
 Sh "9" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po -4.32 2.2
 $EndPAD
 $PAD
 Sh "10" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 105 "N-0000089"
+Ne 7 "N-0000089"
 Po -4.32 3.3
 $EndPAD
 $PAD
 Sh "11" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 104 "N-0000088"
+Ne 6 "N-0000088"
 Po -4.32 4.4
 $EndPAD
 $PAD
@@ -1041,98 +1041,98 @@ $PAD
 Sh "15" R 2 0.7 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 0.55 6.2
 $EndPAD
 $PAD
 Sh "16" R 2 0.7 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 1.65 6.2
 $EndPAD
 $PAD
 Sh "17" R 2 0.7 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 2.75 6.2
 $EndPAD
 $PAD
 Sh "18" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 106 "N-0000090"
+Ne 8 "N-0000090"
 Po 4.32 4.4
 $EndPAD
 $PAD
 Sh "19" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 4.32 3.3
 $EndPAD
 $PAD
 Sh "20" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 101 "N-0000083"
+Ne 4 "N-0000083"
 Po 4.32 2.2
 $EndPAD
 $PAD
 Sh "21" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 102 "N-0000084"
+Ne 5 "N-0000084"
 Po 4.32 1.1
 $EndPAD
 $PAD
 Sh "22" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 4.32 0
 $EndPAD
 $PAD
 Sh "23" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 4.32 -1.1
 $EndPAD
 $PAD
 Sh "24" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 4.32 -2.2
 $EndPAD
 $PAD
 Sh "25" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 4.32 -3.3
 $EndPAD
 $PAD
 Sh "26" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 100 "N-0000082"
+Ne 3 "N-0000082"
 Po 4.32 -4.4
 $EndPAD
 $PAD
 Sh "27" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 4.32 -5.5
 $EndPAD
 $PAD
 Sh "28" R 2 0.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 2 "DGND"
 Po 4.32 -6.6
 $EndPAD
 $EndMODULE M10478-A2
@@ -4904,14 +4904,13 @@ Po 3.975 2.25
 $EndPAD
 $EndMODULE PTS645-SMD
 $MODULE QFN-16-4x4
-Po 174.498 109.347 0 15 57A64FBE 00000000 ~~
+Po 0 0 0 15 582DF5F2 00000000 ~~
 Li QFN-16-4x4
 Cd http://www.intersil.com/content/dam/Intersil/documents/l16_/l16.4x4.pdf
 Kw IPC-7351B, Level A
 Sc 0
 AR /5408931F/578CD5E7
 Op 0 0 0
-.SolderMask 0.0762
 At SMD
 T0 0 -2.921 0.635 0.635 0 0.127 N V 21 N "U6"
 T1 0 3.05 0.635 0.635 0 0.127 N I 21 N "FT230XQ-R"
@@ -4953,25 +4952,22 @@ $PAD
 Sh "13" R 0.28 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 7 "DGND"
 Po 0.975 -1.8
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "14" R 0.28 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 45 "/Power Supply/~PWREN~"
+Ne 4 "/Power Supply/~PWREN~"
 Po 0.325 -1.8
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "15" R 0.28 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 69 "/USB to Serial/TXD"
+Ne 6 "/USB to Serial/TXD"
 Po -0.325 -1.8
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "16" R 0.28 0.8 0 0 0
@@ -4979,31 +4975,27 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.975 -1.8
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "1" R 0.8 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 93 "N-0000071"
+Ne 8 "N-0000071"
 Po -1.8 -0.975
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "2" R 0.8 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 68 "/USB to Serial/RXD"
+Ne 5 "/USB to Serial/RXD"
 Po -1.8 -0.325
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "3" R 0.8 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 7 "DGND"
 Po -1.8 0.325
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "4" R 0.8 0.28 0 0 0
@@ -5011,7 +5003,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1.8 0.975
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "5" R 0.28 0.8 0 0 0
@@ -5019,71 +5010,62 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.975 1.8
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "6" R 0.28 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 99 "N-0000080"
+Ne 10 "N-0000080"
 Po -0.325 1.8
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "7" R 0.28 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 98 "N-0000079"
+Ne 9 "N-0000079"
 Po 0.325 1.8
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "8" R 0.28 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 93 "N-0000071"
+Ne 8 "N-0000071"
 Po 0.975 1.8
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "9" R 0.8 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 93 "N-0000071"
+Ne 8 "N-0000071"
 Po 1.8 0.975
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "10" R 0.8 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 2 "+5V"
+Ne 1 "+5V"
 Po 1.8 0.325
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "11" R 0.8 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 38 "/CC430/TEST"
+Ne 2 "/CC430/TEST"
 Po 1.8 -0.325
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "12" R 0.8 0.28 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 40 "/CC430/~RST~"
+Ne 3 "/CC430/~RST~"
 Po 1.8 -0.975
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "17" R 2.1 2.1 0 0 0
 Dr 0 0 0
 At SMD N 00808000
-Ne 70 "DGND"
+Ne 7 "DGND"
 Po 0 0
-.SolderMask 0.0762
 $EndPAD
 $PAD
 Sh "" R 0.66 0.66 0 0 0
@@ -5094,7 +5076,7 @@ Po 0.525 -0.525
 $EndPAD
 $EndMODULE QFN-16-4x4
 $MODULE R0402
-Po 198.12 142.494 0 15 57A651BF 00000000 ~~
+Po 0 0 0 15 582D8AC1 00000000 ~~
 Li R0402
 Cd http://www.vishay.com/docs/28745/soldpads.pdf
 Kw 0402,Level A
@@ -5114,21 +5096,19 @@ $PAD
 Sh "1" R 0.6 0.55 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 67 "/Shield Connector/VCC-MON"
+Ne 2 "/Shield Connector/VCC-MON"
 Po -0.425 0
-.SolderMask 0.1
 $EndPAD
 $PAD
 Sh "2" R 0.6 0.55 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 21 "/CC430/P2_1"
+Ne 1 "/CC430/P2_1"
 Po 0.425 0
-.SolderMask 0.1
 $EndPAD
 $EndMODULE R0402
 $MODULE RGC
-Po 194.564 131.826 0 15 57A852DD 00000000 ~~
+Po 0 0 0 15 582D8A55 00000000 ~~
 Li RGC
 Cd http://www.ti.com/lit/ds/symlink/cc430f6137.pdf
 Kw RGC,64,vqfn,Level A
@@ -5168,36 +5148,32 @@ $PAD
 Sh "56" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 73 "N-0000021"
+Ne 1 "+3.3V"
 Po 0.25 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "55" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 30 "/CC430/P5_0"
+Ne 28 "/CC430/P5_0"
 Po 0.75 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "54" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 31 "/CC430/P5_1"
+Ne 29 "/CC430/P5_1"
 Po 1.25 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "53" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 51 "DGND"
 Po 1.75 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
@@ -5206,142 +5182,126 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 1 "+3.3V"
 Po 2.25 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "51" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 40 "/CC430/~RST~"
+Ne 38 "/CC430/~RST~"
 Po 2.75 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "50" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 38 "/CC430/TEST"
+Ne 36 "/CC430/TEST"
 Po 3.25 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "49" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 35 "/CC430/TCK"
+Ne 33 "/CC430/TCK"
 Po 3.75 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "57" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 27 "/CC430/P2_7"
+Ne 25 "/CC430/P2_7"
 Po -0.25 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "58" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 26 "/CC430/P2_6"
+Ne 24 "/CC430/P2_6"
 Po -0.75 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "59" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 25 "/CC430/P2_5"
+Ne 44 "/Shield Connector/AD_2"
 Po -1.25 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "60" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 24 "/CC430/P2_4"
+Ne 23 "/CC430/P2_4"
 Po -1.75 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "61" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 23 "/CC430/P2_3"
+Ne 22 "/CC430/P2_3"
 Po -2.25 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "62" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 22 "/CC430/P2_2"
+Ne 21 "/CC430/P2_2"
 Po -2.75 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "63" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 21 "/CC430/P2_1"
+Ne 20 "/CC430/P2_1"
 Po -3.25 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "64" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 14 "/CC430/GPS-TX"
+Ne 13 "/CC430/GPS-TX"
 Po -3.75 -4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "1" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 20 "/CC430/P1_7"
+Ne 19 "/CC430/P1_7"
 Po -4.475 -3.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "2" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 68 "/USB to Serial/RXD"
+Ne 49 "/USB to Serial/RXD"
 Po -4.475 -3.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "3" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 69 "/USB to Serial/TXD"
+Ne 50 "/USB to Serial/TXD"
 Po -4.475 -2.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "4" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 51 "DGND"
 Po -4.475 -2.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
@@ -5350,52 +5310,46 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -4.475 -1.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "6" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 18 "/CC430/MEM ~HOLD1~"
+Ne 17 "/CC430/MEM ~HOLD1~"
 Po -4.475 -1.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "7" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 17 "/CC430/MEM ~HOLD0~"
+Ne 16 "/CC430/MEM ~HOLD0~"
 Po -4.475 -0.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "8" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 15 "/CC430/MEM ~CS0~"
+Ne 14 "/CC430/MEM ~CS0~"
 Po -4.475 -0.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "9" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 19 "/CC430/MOSFET_CNTL"
+Ne 18 "/CC430/MOSFET_CNTL"
 Po -4.475 0.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "10" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 72 "N-0000020"
+Ne 52 "N-0000019"
 Po -4.475 0.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
@@ -5404,160 +5358,142 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 1 "+3.3V"
 Po -4.475 1.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "12" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 65 "/Shield Connector/CONN_SCK"
+Ne 48 "/Shield Connector/CONN_SCK"
 Po -4.475 1.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "13" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 64 "/Shield Connector/CONN_MOSI/SDA"
+Ne 47 "/Shield Connector/CONN_MOSI/SDA"
 Po -4.475 2.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "14" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 63 "/Shield Connector/CONN_MISO/SCL"
+Ne 46 "/Shield Connector/CONN_MISO/SCL"
 Po -4.475 2.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "15" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 62 "/Shield Connector/CONN_CS"
+Ne 45 "/Shield Connector/CONN_CS"
 Po -4.475 3.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "16" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 12 "/CC430/GPS-PPS"
+Ne 11 "/CC430/GPS-PPS"
 Po -4.475 3.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "48" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 39 "/CC430/TMS"
+Ne 37 "/CC430/TMS"
 Po 4.475 -3.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "47" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 36 "/CC430/TDI"
+Ne 34 "/CC430/TDI"
 Po 4.475 -3.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "46" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 37 "/CC430/TDO"
+Ne 35 "/CC430/TDO"
 Po 4.475 -2.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "45" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 32 "/CC430/RF-PWR"
+Ne 30 "/CC430/RF-PWR"
 Po 4.475 -2.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "44" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 76 "N-0000037"
+Ne 53 "N-0000035"
 Po 4.475 -1.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "43" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 32 "/CC430/RF-PWR"
+Ne 30 "/CC430/RF-PWR"
 Po 4.475 -1.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "42" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 32 "/CC430/RF-PWR"
+Ne 30 "/CC430/RF-PWR"
 Po 4.475 -0.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "41" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 33 "/CC430/RF_N"
+Ne 31 "/CC430/RF_N"
 Po 4.475 -0.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "40" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 34 "/CC430/RF_P"
+Ne 32 "/CC430/RF_P"
 Po 4.475 0.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "39" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 32 "/CC430/RF-PWR"
+Ne 30 "/CC430/RF-PWR"
 Po 4.475 0.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "38" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 32 "/CC430/RF-PWR"
+Ne 30 "/CC430/RF-PWR"
 Po 4.475 1.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "37" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 77 "N-0000042"
+Ne 55 "N-0000041"
 Po 4.475 1.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 .ZoneConnection 2
 $EndPAD
@@ -5565,99 +5501,88 @@ $PAD
 Sh "36" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 78 "N-0000043"
+Ne 54 "N-0000040"
 Po 4.475 2.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "35" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 11 "/CC430/DIGITAL_IO_8"
+Ne 10 "/CC430/DIGITAL_IO_8"
 Po 4.475 2.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "34" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 13 "/CC430/GPS-RX"
+Ne 12 "/CC430/GPS-RX"
 Po 4.475 3.25
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "33" R 0.28 0.85 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 10 "/CC430/DIGITAL_IO_7"
+Ne 9 "/CC430/DIGITAL_IO_7"
 Po 4.475 3.75
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "32" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 9 "/CC430/DIGITAL_IO_6"
+Ne 8 "/CC430/DIGITAL_IO_6"
 Po 3.75 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "31" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 8 "/CC430/DIGITAL_IO_5"
+Ne 7 "/CC430/DIGITAL_IO_5"
 Po 3.25 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "30" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 7 "/CC430/DIGITAL_IO_4"
+Ne 6 "/CC430/DIGITAL_IO_4"
 Po 2.75 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "29" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 6 "/CC430/DIGITAL_IO_3"
+Ne 5 "/CC430/DIGITAL_IO_3"
 Po 2.25 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "28" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 54 "/RF Front End/PA_Enable"
+Ne 43 "/RF Front End/PA_Enable"
 Po 1.75 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "27" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 53 "/RF Front End/LNA_Enable"
+Ne 42 "/RF Front End/LNA_Enable"
 Po 1.25 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "26" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 52 "/RF Front End/HGM_Select"
+Ne 41 "/RF Front End/HGM_Select"
 Po 0.75 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
@@ -5666,88 +5591,78 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 1 "+3.3V"
 Po 0.25 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "24" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 5 "/CC430/DIGITAL_IO_2"
+Ne 4 "/CC430/DIGITAL_IO_2"
 Po -0.25 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "23" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 4 "/CC430/DIGITAL_IO_1"
+Ne 3 "/CC430/DIGITAL_IO_1"
 Po -0.75 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "22" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 3 "/CC430/DIGITAL_IO_0"
+Ne 2 "/CC430/DIGITAL_IO_0"
 Po -1.25 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "21" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 41 "/GPS/HRST"
+Ne 39 "/GPS/HRST"
 Po -1.75 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "20" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 42 "/GPS/STDBY"
+Ne 40 "/GPS/STDBY"
 Po -2.25 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "19" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 16 "/CC430/MEM ~CS1~"
+Ne 15 "/CC430/MEM ~CS1~"
 Po -2.75 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "18" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 28 "/CC430/P3_6"
+Ne 26 "/CC430/P3_6"
 Po -3.25 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "17" R 0.28 0.85 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 29 "/CC430/P3_7"
+Ne 27 "/CC430/P3_7"
 Po -3.75 4.475
-.SolderMask 0.0635
 .SolderPaste -0.025
 $EndPAD
 $PAD
 Sh "65" R 4.25 4.25 0 0 0
 Dr 0 0 0
 At SMD N 00808000
-Ne 70 "DGND"
+Ne 51 "DGND"
 Po 0 0
-.SolderMask 0.0635
 .ZoneConnection 2
 $EndPAD
 $PAD
@@ -5759,7 +5674,7 @@ Po -1.05 1.05
 $EndPAD
 $EndMODULE RGC
 $MODULE RGV
-Po 199.898 110.617 0 15 57A650AE 00000000 ~~
+Po 0 0 0 15 58329505 00000000 ~~
 Li RGV
 Cd http://www.ti.com/lit/ds/symlink/cc1190.pdf
 Kw TI,RGV,Level A
@@ -5785,6 +5700,30 @@ DS -2.55 -2.55 -1.55 -2.55 0.15 21
 DS -1.55 -2.55 -1.55 -1.55 0.15 21
 DS -1.55 -1.55 -2.55 -1.55 0.15 21
 DS -2.55 -1.55 -2.55 -2.55 0.15 21
+$PAD
+Sh "" R 0.1016 0.254 0 0 450
+Dr 0 0 0
+At SMD N 00800000
+Ne 0 ""
+Po 1.27 -1.27
+.LocalClearance 0.0254
+$EndPAD
+$PAD
+Sh "" R 0.1016 0.254 0 0 450
+Dr 0 0 0
+At SMD N 00800000
+Ne 0 ""
+Po -1.27 1.27
+.LocalClearance 0.0254
+$EndPAD
+$PAD
+Sh "" R 0.1016 0.254 0 0 3150
+Dr 0 0 0
+At SMD N 00800000
+Ne 0 ""
+Po -1.27 -1.27
+.LocalClearance 0.0254
+$EndPAD
 $PAD
 Sh "" R 0.9 0.9 0 0 0
 Dr 0 0 0
@@ -5812,7 +5751,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 1 "+3.3V"
 Po 0.975 -1.9
-.SolderMask 0.07
 .SolderPaste -0.05
 .ZoneConnection 2
 $EndPAD
@@ -5820,9 +5758,8 @@ $PAD
 Sh "14" R 0.35 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 90 "N-0000061"
+Ne 9 "N-0000054"
 Po 0.325 -1.9
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
@@ -5831,7 +5768,6 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 1 "+3.3V"
 Po -0.325 -1.9
-.SolderMask 0.07
 .SolderPaste -0.05
 .ZoneConnection 2
 $EndPAD
@@ -5841,16 +5777,14 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 1 "+3.3V"
 Po -0.975 -1.9
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "5" R 0.35 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 91 "N-0000062"
+Ne 10 "N-0000055"
 Po -0.975 1.9
-.SolderMask 0.07
 .SolderPaste -0.05
 .ZoneConnection 2
 $EndPAD
@@ -5858,27 +5792,24 @@ $PAD
 Sh "6" R 0.35 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 52 "/RF Front End/HGM_Select"
+Ne 4 "/RF Front End/HGM_Select"
 Po -0.325 1.9
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "7" R 0.35 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 53 "/RF Front End/LNA_Enable"
+Ne 5 "/RF Front End/LNA_Enable"
 Po 0.325 1.9
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "8" R 0.35 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 54 "/RF Front End/PA_Enable"
+Ne 6 "/RF Front End/PA_Enable"
 Po 0.975 1.9
-.SolderMask 0.07
 .SolderPaste -0.05
 .ZoneConnection 2
 $EndPAD
@@ -5886,81 +5817,72 @@ $PAD
 Sh "1" R 0.35 1 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 7 "DGND"
 Po -1.9 -0.975
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "2" R 0.35 1 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 48 "/RF Front End/50Z_3"
+Ne 3 "/RF Front End/50Z_3"
 Po -1.9 -0.325
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "3" R 0.35 1 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 7 "DGND"
 Po -1.9 0.325
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "4" R 0.35 1 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 89 "N-0000060"
+Ne 8 "N-0000053"
 Po -1.9 0.975
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "9" R 0.35 1 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 7 "DGND"
 Po 1.9 0.975
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "10" R 0.35 1 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 47 "/RF Front End/50Z-2"
+Ne 2 "/RF Front End/50Z-2"
 Po 1.9 0.325
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "11" R 0.35 1 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 47 "/RF Front End/50Z-2"
+Ne 2 "/RF Front End/50Z-2"
 Po 1.9 -0.325
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "12" R 0.35 1 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "DGND"
+Ne 7 "DGND"
 Po 1.9 -0.975
-.SolderMask 0.07
 .SolderPaste -0.05
 $EndPAD
 $PAD
 Sh "17" R 2.16 2.16 0 0 0
 Dr 0 0 0
 At SMD N 00808000
-Ne 70 "DGND"
+Ne 7 "DGND"
 Po 0 0
-.SolderMask 0.07
 .ZoneConnection 2
 $EndPAD
 $PAD
@@ -5969,6 +5891,14 @@ Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
 Po -0.54 -0.54
+$EndPAD
+$PAD
+Sh "" R 0.1016 0.254 0 0 3150
+Dr 0 0 0
+At SMD N 00800000
+Ne 0 ""
+Po 1.27 1.27
+.LocalClearance 0.0254
 $EndPAD
 $EndMODULE RGV
 $MODULE SC70-6

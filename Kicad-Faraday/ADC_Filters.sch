@@ -11,8 +11,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 4 11
 Title "Faraday Wireless Node"
-Date "15 nov 2016"
-Rev "D1"
+Date "19 nov 2016"
+Rev "D"
 Comp "FaradayRF"
 Comment1 "www.FaradayRF.com"
 Comment2 "Bryce Salmi (KB1LQC), Brenton Salmi (KB1LQD)"
@@ -238,7 +238,7 @@ FILTER_OUT_7
 Text Notes 7975 2600 0    120  ~ 24
 16 Hz ADC Filters
 Text Notes 9950 5800 0    60   ~ 12
-CC430 Internal ESD Diodes Imax = 2mA\n24V max VCC just barely above 2mA @40mW dissipation
+CC430 Internal ESD Diodes Imax = 2mA
 Text Notes 7975 2725 0    60   ~ 0
 Filter channels flipped for routing!
 Text Notes 7850 3500 0    60   ~ 0
@@ -391,8 +391,8 @@ Wire Wire Line
 	9150 8050 9150 8200
 Wire Wire Line
 	9150 8600 9150 8650
-Text Notes 8150 6400 0    60   ~ 0
-ADC2 intended for\nmicrophone input
+Text Notes 6250 6400 0    60   ~ 0
+ADC2 intended for:\n * Microphone input\n * External voltage reference
 Text Notes 7700 6700 0    60   ~ 0
-ESD caution advised with ADC2
+ESD caution advised with ADC2\nOvercurrent possible
 $EndSCHEMATC
