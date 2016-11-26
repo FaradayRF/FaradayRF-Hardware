@@ -8,7 +8,7 @@ Version: (2013-07-07 BZR 4022)-stable
 # Design Files
  * [Kicad Project](https://github.com/FaradayRF/FaradayRF-Hardware/blob/master/Kicad-Faraday/Faraday.pro)
  * [PDF Schematic](https://github.com/FaradayRF/FaradayRF-Hardware/blob/master/Kicad-Faraday/OutputFiles/FaradayRF-SCH.pdf)
- * Fabrication Zip(https://github.com/FaradayRF/FaradayRF-Hardware/blob/master/Kicad-Faraday/OutputFiles/Faraday-RevD-FAB.zip)
+ * [Fabrication Zip](https://github.com/FaradayRF/FaradayRF-Hardware/blob/master/Kicad-Faraday/OutputFiles/Faraday-RevD-FAB.zip)
    * Gerbers
    * Readme file
  * [Assembly Zip](https://github.com/FaradayRF/FaradayRF-Hardware/blob/master/Kicad-Faraday/OutputFiles/Faraday-RevD-ASSY.zip)
